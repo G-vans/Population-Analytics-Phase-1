@@ -1,17 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
 * {
     box-sizing: border-box;
-    
+
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-img{
+img {
     height: auto;
     max-width: 100%;
     object-fit: cover;
@@ -21,17 +23,93 @@ img{
 
 .navbar {
     display: flex;
-    justify-content: space-around;
-    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+    justify-content: space-between;
+    flex-direction: row;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
     padding-bottom: 5px;
     width: 100vw;
+    padding: 10px;
 }
 
 #logo {
-    font-size: large;
+    font-weight: 800;
+    font-size: 20px;
     color: #182c4c;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-.navbar li {
-    padding-top: 10px;
+.navbar li a {
+    color: #27394b;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btn-navbar {
+    background-color: #182c4c;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 0%;
+    width: 90px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.btn-navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-signup li {
+    margin: 0;
+    color: #fff;
+}
+
+/*banner code*/
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner-tag {
+    background: #2b3b77;
+    width: max-content;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 2em;
+    margin-left: 4em;
+    font-family: 'Source Sans Pro', sans-serif;
+    opacity: 0.8;
+}
+
+.text-1 {
+    color: #fff;
+    width: 300px;
+    font-size: 48px;
+    margin-left: 60px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner-text {
+    background-color: #182c4c;
+    width: 60vw;
+}
+
+#text-1-span {
+    color: #565fdc;
+}
+
+#banner-text-description {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
