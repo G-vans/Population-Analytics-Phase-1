@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/*style navbar*/
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+    padding-bottom: 5px;
+    width: 100vw;
+}
+
+#logo {
+    font-size: large;
+    color: brown;
+}
+
+.navbar li {
+    padding-top: 10px;
+}
