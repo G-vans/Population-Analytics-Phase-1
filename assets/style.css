@@ -13,11 +13,7 @@ a {
     text-decoration: none;
 }
 
-img {
-    height: auto;
-    max-width: 100%;
-    object-fit: cover;
-}
+
 
 /*style navbar*/
 
@@ -101,7 +97,8 @@ img {
 
 .banner-text {
     background-color: #182c4c;
-    width: 60vw;
+    width: 1300px;
+    border-radius: 4px;
 }
 
 #text-1-span {
@@ -113,6 +110,10 @@ img {
     font-size: 18px;
     margin-left: 60px;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 2.5rem;
+    margin: 18px 60 40px;
 }
 
 /*button*/
@@ -137,5 +138,11 @@ img {
     text-decoration: none;
     color: #fff;
     padding: 10px;
+}
 
+/*banner-image*/
+img {
+    height: auto;
+    
+    object-fit: cover;
 }
