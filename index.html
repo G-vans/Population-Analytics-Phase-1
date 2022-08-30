@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css" />
     <title>Property Analytics</title>
 </head>
@@ -12,30 +15,35 @@
 <body>
     <!--Top Navbar-->
     <div class="navbar">
-        <li id="logo">Property Analytics</li>
-        <li>Projects</li>
-        <li>Directory</li>
-        <li>Market Analysis</li>
-        <li>Insights and Reports</li>
-        <li><button><a href="./assets/signup.html">Sign Up</a></button></li>
+        <div id="logo">
+        <a href="#">Property Analytics</a>
+        </div>
+        
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Market Analysis</a></li>
+        <li><a href="#">Insights and Reports</a></li>
+       <div class="navbar-signup">
+        
+        <button class="btn-navbar"><a href="./assets/signup.html">Sign Up</a></button>
+        </div>
     </div>
     <!--Banner section-->
     <div class="banner">
         <div class="banner-text">
-            <h3 id="banner-tag">Africa’s #1 Real Estate Data Source</h3>
-            <br><br><br>
-            <h1 class="text-1">One Source fro Real Estate <span id="text-1-span">Data in Africa</span></h1>
-            <br><br><br>
-            <h3 id="banner-text-description">We provide information on historic rental, sale price
+            <p id="banner-tag">Africa’s #1 Real Estate Data Source</p>
+            
+            <h1 class="text-1">One Source for Real Estate <span id="text-1-span">Data in Africa</span></h1>
+            
+            <p id="banner-text-description">We provide information on historic rental, sale price
                 and vacancy data for thousands of properties on the
                 continent to help investors & advisors make sense of
-                Africa's opaque real estate market.</h3>
+                Africa's opaque real estate market.</p>
 
-                <button id="btn-analys"><a href="http://">View Market Analysis</a></button>
-
-                <div class="banner-image">
-                    <img src="./assets/images/banner.jpeg" alt="banner-image">
-                </div>
+            <button id="btn-analys"><a href="http://">View Market Analysis</a></button>
+        </div>
+        <div class="banner-image">
+            <img src="./assets/images/screenshot_1.png" alt="banner-image">
         </div>
     </div>
 </body>
