@@ -57,6 +57,7 @@ img {
     text-align: center;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    border: none;
 
 }
 
@@ -112,4 +113,29 @@ img {
     font-size: 18px;
     margin-left: 60px;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*button*/
+
+#btn-analys {
+    background-color: #565fdc;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 13px;
+    width: 200px;
+    
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 6px 16px rgb(41 48 82 / 29%);
+    border: none;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+#btn-analys a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+
 }
