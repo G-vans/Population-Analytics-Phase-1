@@ -30,9 +30,15 @@
         <p class="main-description">For the past two decades, the Kenyan real estate market has grown exponentially as evidenced by its contribution to the country’s GDP which grew from 10.5% in 2000 to 12.6% in 2012 and 13.8% in 2016. The growth is driven by mostly Infrastructural developments such as improved roads, utility connections, upgrade of key airports and stable GDP growth which has averaged at 5.4% over the last 5 years against a Sub- Saharan average of 4.1%;</p>
     </div>
 
-    <button id="btn-analys"><a href="/dashboard.html">Click to View Sample Data</a></button>
+    <div>
 
-    <div class="main-table">
+    <button onclick="document.getElementById('main-table').style.display='block'" id="btn-analys">Click to View Sample Data</button>
+
+    <button onclick="document.getElementById('main-table').style.display='block'" id="btn-analys">Click to Hide Sample Data</button>
+
+    </div>
+
+    <div id="main-table" style="display: none;">
         <table>
             <thead>
             <tr>
