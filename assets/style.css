@@ -44,7 +44,7 @@ a {
 }
 
 .btn-navbar {
-    background-color: #182c4c;
+  background: linear-gradient(90deg,#5da3ee -32%,#565fdc 136%);
     color: #fff;
     border-radius: 4px;
     padding: 8px;
@@ -268,7 +268,8 @@ input[type=text], input[type=password] {
 
   /*table styling*/
   table {
-    font-family: arial, sans-serif;
+    
+    font-family: 'Montserrat', sans-serif;
     border-collapse: collapse;
     width: 100%;
   }
@@ -301,3 +302,5 @@ input[type=text], input[type=password] {
     font-family: 'Montserrat' sans-serif;
     color: #182c4c;
   }
+
+  
