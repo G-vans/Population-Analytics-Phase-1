@@ -143,9 +143,8 @@ a {
 
 /*banner-image*/
 img {
-    height: auto;
-    
-    object-fit: cover;
+  height: auto;
+  object-fit: cover;
 }
 
 /*Modal login*/
