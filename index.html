@@ -25,9 +25,40 @@
         <li><a href="#">Insights and Reports</a></li>
        <div class="navbar-signup">
         
-        <button class="btn-navbar"><a href="./assets/signup.html">Sign Up</a></button>
+        <button onclick="document.getElementById('id01').style.display='block'"  class="btn-navbar">Sign Up</button>
         </div>
     </div>
+
+    <!--Modal Login-->
+
+    <div id="id01" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <img src="./assets/images/img-avatar.jpg" alt="Avatar" class="avatar">
+          </div>
+      
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+      
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+              
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+      
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+      
     <!--Banner section-->
     <div class="banner">
         <div class="banner-text">
@@ -40,13 +71,15 @@
                 continent to help investors & advisors make sense of
                 Africa's opaque real estate market.</p>
 
-            <button id="btn-analys"><a href="http://">View Market Analysis</a></button>
+            <button id="btn-analys"><a href="/dashboard.html">View Market Analysis</a></button>
             <br>
         </div>
         <div class="banner-image">
             <img src="./assets/images/screenshot_1.png" alt="banner-image">
         </div>
     </div>
+
+    <script src="./assets/script.js"></script>
 </body>
 
 </html>
