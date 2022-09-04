@@ -46,6 +46,10 @@ Then, open the `index.html` file on your browser to run the application.
 The base URL for your API will be
 [http://localhost:3000](http://localhost:3000).
 
+To view sample data, click on `Click to View Sample Data` button at the button of the page then scroll down to view the sample data.
+
+Click on `Click to Hide Sample Data` button to hide the data section
+
 ### Requirements
 
 * Either a computer,phone,tablet or an Ipad
