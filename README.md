@@ -16,10 +16,10 @@
 <p>A dashboard that showcases real estate data analytics, historical data and a 360 view of the opaque real estate market.</p>
 
 ## Preview
-![Landing page](https://github.com/G-vans/Agri_Plus_wk2/blob/main/photos/Screenshot%20.png)
+![Landing page](https://github.com/G-vans/Property-Analytics-Phase-1/blob/main/assets/images/Screenshot_2.png)
 
 
-![Dashboard page](https://github.com/G-vans/Agri_Plus_wk2/blob/main/photos/Screenshot%20.png)
+![Dashboard page](https://github.com/G-vans/Property-Analytics-Phase-1/blob/main/assets/images/Screenshot_3.png)
 
 ## Setup
 
