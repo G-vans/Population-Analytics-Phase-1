@@ -135,6 +135,23 @@ a {
     margin-bottom: 50px;
 }
 
+#btn-analys1 {
+  background-color: #565fdc;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 13px;
+  padding: 13px;
+  width: 200px;
+  
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 6px 16px rgb(41 48 82 / 29%);
+  border: none;
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+
+
 #btn-analys a {
     text-decoration: none;
     color: #fff;
@@ -302,4 +319,6 @@ input[type=text], input[type=password] {
     color: #182c4c;
   }
 
-  
+  #result {
+    display: none;
+  }
