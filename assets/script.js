@@ -1,5 +1,8 @@
+window.addEventListener('DOMContentLoaded', () => {
+    
 // Get the modal
 var modal = document.getElementById('id01');
+
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
@@ -8,9 +11,14 @@ window.onclick = function (event) {
     }
 }
 
-
-
-
+//click event listener
+let btn_element = document.getElementById("btn-analys1");
+  
+  
+        btn_element.addEventListener("click", () => {
+            document.getElementById("main-table")
+                .style.display = "block";
+        });
 
 //fetch data
 let url = "http://localhost:3000/Sheet1"
@@ -40,4 +48,4 @@ fetch(url)
 
         placeholder.innerHTML = out;
     });
-   
+})
