@@ -151,6 +151,9 @@ a {
   margin-bottom: 50px;
 }
 
+.change-sec {
+  display: none;
+}
 
 #btn-analys a {
     text-decoration: none;
