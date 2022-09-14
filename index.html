@@ -2,149 +2,159 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/style.css" />
-    <title>Property Analytics</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style.css" />
+  <title>Population Analytics</title>
 </head>
 
 <body>
-    <!--Top Navbar-->
-    <div class="navbar">
-        <div id="logo">
-        <a href="#">Property Analytics</a>
-        </div>
-        
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Directory</a></li>
-        <li><a href="#">Market Analysis</a></li>
-        <li><a href="#">Insights and Reports</a></li>
-       <div class="navbar-signup">
-        
-        <button onclick="document.getElementById('id01').style.display='block'"  class="btn-navbar">Sign Up</button>
-        </div>
+  <!--Top Navbar-->
+  <div class="navbar">
+    <div id="logo">
+      <a href="#">Population Analytics</a>
     </div>
 
-    <!--Modal Login-->
+    <li><a href="#">Data</a></li>
+    <li><a href="#">GDP</a></li>
+    <li><a href="#">Analysis</a></li>
+    <li><a href="#">Insights and Reports</a></li>
+    <div class="navbar-signup">
 
-    <div id="id01" class="modal">
-  
-        <form class="modal-content animate" action="#" method="post">
-          <div class="imgcontainer">
-            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-            <img src="./assets/images/img-avatar.jpg" alt="Avatar" class="avatar">
-          </div>
-      
-          <div class="container">
-            <label for="uname"><b>Username</b></label>
-            <input id="userName" type="text" placeholder="Enter Username" name="uname" required>
-      
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-              
-            <button type="submit">Login</button>
-            <label>
-              <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
-          </div>
-      
-          <div class="container" style="background-color:#f1f1f1">
-            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-            <span class="psw">Forgot <a href="#">password?</a></span>
-          </div>
-        </form>
+      <button onclick="document.getElementById('id01').style.display='block'" class="btn-navbar">Sign Up</button>
+    </div>
+  </div>
+
+  <!--Modal Login-->
+
+  <div id="id01" class="modal">
+
+    <form class="modal-content animate" action="#" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close"
+          title="Close Modal">&times;</span>
+        <img src="./assets/images/img-avatar.jpg" alt="Avatar" class="avatar">
       </div>
-      
-    <!--Banner section-->
-    <div class="banner">
-        <div class="banner-text">
-            <p id="banner-tag">Africa’s #1 Real Estate Data Source</p>
-            
-            <h1 class="text-1">One Source for Real Estate <span id="text-1-span">Data in Africa</span></h1>
-            
-            <p id="banner-text-description">We provide information on historic rental, sale price
-                and vacancy data for thousands of properties on the
-                continent to help investors & advisors make sense of
-                Africa's opaque real estate market.</p>
 
-            <button id="btn-analys"><a href="#">Sample Market Data</a></button>
-            <br>
-        </div>
-        <div class="banner-image">
-            <img src="./assets/images/screenshot_1.png" alt="banner-image">
-        </div>
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input id="userName" type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+          class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
+
+  <!--Banner section-->
+  <div class="banner">
+    <div class="banner-text">
+      <p id="banner-tag">America’s #1 Population Data Source</p>
+
+      <h1 class="text-1">One Source for Population <span id="text-1-span">Data in America</span></h1>
+
+      <p id="banner-text-description">We provide information on historic population data, growth metric
+        and other macro data for thousands of states on the
+        continent to help researchers & advisors make sense of
+        America's opaque potential in the world.</p>
+
+      <button id="btn-analys"><a href="#">Sample Market Data</a></button>
+      <br>
     </div>
+    <div class="banner-image">
+      <img src="./assets/images/screenshot_1.png" alt="banner-image">
+    </div>
+  </div>
 
-    <!--Main Body-->
-    <div class="mainbody">
-      <h1 class="main-header">Nairobi Property Market Overview</h1>
-      <p class="main-description">For the past two decades, the Kenyan real estate market has grown exponentially as evidenced by its contribution to the country’s GDP which grew from 10.5% in 2000 to 12.6% in 2012 and 13.8% in 2016. The growth is driven by mostly Infrastructural developments such as improved roads, utility connections, upgrade of key airports and stable GDP growth which has averaged at 5.4% over the last 5 years against a Sub- Saharan average of 4.1%;</p>
+  <!--Main Body-->
+  <div class="mainbody">
+    <h1 class="main-header">America Population Data Overview</h1>
+    <p class="main-description">For the past two decades, the America’s population numbers has grown exponentially as
+      evidenced by its contribution to the world’s GDP which grew from 10.5% in 2000 to 12.6% in 2012 and 13.8% in 2016.
+      The growth is driven by mostly high birth rates and good amenities such as improved roads, utility connections,
+      upgrade of key airports and stable GDP growth which has averaged at 5.4% over the last 5 years against a North-
+      American average of 4.1%;</p>
   </div>
 
   <div>
 
-  <button  id="btn-analys1">Click to View Sample Data</button>
+    <button id="btn-analys1">Click to View Sample Data</button>
 
-  <button onclick="document.getElementById('main-table').style.display='none'" id="btn-analys">Click to Hide Sample Data</button>
+    <button onclick="document.getElementById('main-table').style.display='none'" id="btn-analys">Click to Hide Sample
+      Data</button>
 
   </div>
 
-  <div class="change-sec"> <h1> Read data below: <div id="result"></div> </h1></div>
+  <div class="change-sec">
+    <h1> Read data below: <div id="result"></div>
+    </h1>
+  </div>
 
   <div id="main-table" style="display: none;">
-      <table>
-          <thead>
-          <tr>
+    <table>
+      <thead>
+        <tr>
           <th>Year</th>
           <th>Population</th>
-          </tr>
-          </thead>
+        </tr>
+      </thead>
 
-          <tbody id="data-output">
-            <tr>
-              <td id="test1"></td>
-              <td id="test2"></td>
-            </tr>
-            <tr>
-              <td id="test3"></td>
-              <td id="test4"></td>
-            </tr>
-            <tr>
-              <td id="test5"></td>
-              <td id="test6"></td>
-            </tr>
-            <tr>
-              <td id="test7"></td>
-              <td id="test8"></td>
-            </tr>
-            <tr>
-              <td id="test9"></td>
-              <td id="test10"></td>
-            </tr>
-            <tr>
-              <td id="test11"></td>
-              <td id="test12"></td>
-            </tr>
-            <tr>
-              <td id="test13"></td>
-              <td id="test14"></td>
-            </tr>
-            <tr>
-              <td id="test15"></td>
-              <td id="test16"></td>
-            </tr>
-              
+      <tbody id="data-output">
+        <tr>
+          <td id="test1"></td>
+          <td id="test2"></td>
+        </tr>
+        <tr>
+          <td id="test3"></td>
+          <td id="test4"></td>
+        </tr>
+        <tr>
+          <td id="test5"></td>
+          <td id="test6"></td>
+        </tr>
+        <tr>
+          <td id="test7"></td>
+          <td id="test8"></td>
+        </tr>
+        <tr>
+          <td id="test9"></td>
+          <td id="test10"></td>
+        </tr>
+        <tr>
+          <td id="test11"></td>
+          <td id="test12"></td>
+        </tr>
+        <tr>
+          <td id="test13"></td>
+          <td id="test14"></td>
+        </tr>
+        <tr>
+          <td id="test15"></td>
+          <td id="test16"></td>
+        </tr>
 
-          </tbody>
-      </table>
+
+      </tbody>
+    </table>
   </div>
 
-    <script src="./assets/script.js"></script>
-    
+  <script src="./assets/script.js"></script>
+
 </body>
 
 </html>
