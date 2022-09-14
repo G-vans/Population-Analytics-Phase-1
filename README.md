@@ -1,7 +1,7 @@
-# Property_Analytics
+# Population_Analytics
 
 ##### By Jevan Otieno 
-### A dashboard that showcases real estate data analytics, historical data and a 360 view of the opaque real estate market.
+### A dashboard that showcases population data analytics, historical data and a 360 view of the population growth in the region.
 
 ## Table of Content
 
@@ -13,38 +13,20 @@
 + [Authors Info](#author-Info)
 
 ## Description
-<p>A dashboard that showcases real estate data analytics, historical data and a 360 view of the opaque real estate market.</p>
+<p>A dashboard that showcases population data analytics, historical data and a 360 view of the population growth in the region.</p>
 
 ## Preview
-![Landing page](https://github.com/G-vans/Property-Analytics-Phase-1/blob/main/assets/images/Screenshot_2.png)
+![Landing page](https://github.com/G-vans/Property-Analytics-Phase-1/blob/main/assets/images/Screenshot-4.png)
 
 
-![Dashboard page](https://github.com/G-vans/Property-Analytics-Phase-1/blob/main/assets/images/Screenshot_3.png)
+![Dashboard page](https://github.com/G-vans/Property-Analytics-Phase-1/blob/main/assets/images/Screenshot-5.png)
 
 ## Setup
 
-Run this command to get the backend api started:
-
-```console
-$ npm init -y
-```
-
-```console
-$ npm i json-server
-```
-
-```console
-$ npm start
-```
-
-Test your server by visiting this route in the browser:
-
-[http://localhost:3000/Sheet1](http://localhost:3000/Sheet1)
-
-Then, open the `index.html` file on your browser to run the application.
-
 The base URL for your API will be
-[http://localhost:3000](http://localhost:3000).
+[https://datausa.io/api/data?measures=Population](https://datausa.io/api/data?measures=Population).
+
+The API shared above will just provide a brief detail on the population of USA over the years, going back to 2013.
 
 To view sample data, click on `Click to View Sample Data` button at the button of the page then scroll down to view the sample data.
 
